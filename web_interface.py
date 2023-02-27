@@ -55,7 +55,7 @@ else:
 
 if st.button("Predict Probability"):
     runs_left = target - score
-    balls_left= 120 - (overs1 * 6 + balls_completed)
+    balls_left= 120 - (overs * 6 + balls_completed)
     wickets= 10 - wickets
     if overs == 0 and balls_completed == 0:
         crr = 0
