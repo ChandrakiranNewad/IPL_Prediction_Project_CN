@@ -17,7 +17,7 @@ cities=['Ahmedabad', 'Kolkata', 'Mumbai', 'Navi Mumbai', 'Pune', 'Dubai',
 'Bloemfontein', 'Port Elizabeth', 'Kimberley', 'East London','Cape Town']
 
 
-pipe = pickle.load(open("PySpark_LR.pkl","rb"))
+pipe = pickle.load(open("PySpark_LR_test.pkl","rb"))
 
 st.title("IPL Match Winner Predictor")
 
